@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Top Island</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <!-- <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" /> -->
+		<img class="logo" alt="Top Island logo" src="img/logos/top_island_cropped.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">Home</a></li>
+          <li><a class="main-nav-link" href="#meals">About Us</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Contact</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Events</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Menu</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Timeless Cantonese Flavors, Steamed to Perfection.
+            </h1>
+            <p class="hero-description">
+              Steamed, Fried, and Made to Be Shared.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >See full menu</a
+            >
+
+            <!-- <a href="#how" class="btn btn--outline">Book Table &darr;</a> -->
+            <!--
+			<div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>250,000+</span> meals delivered last year!
+              </p>
+            </div>
+			-->
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+
+              <img
+                src="img/hero-min.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
+            <img
+              src="img/logos/business-insider.png"
+              alt="Business Insider logo"
+            />
+            <img
+              src="img/logos/the-new-york-times.png"
+              alt="The New York Times logo"
+            />
+            <img src="img/logos/forbes.png" alt="Forbes logo" />
+            <img src="img/logos/usa-today.png" alt="USA Today logo" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/logos/top_island.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p>
+              <a class="footer-link" href="#">(###) ###-####</a
+              ><br />
+              <a class="footer-link" href="#"
+                >contact@topislandgroup.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+       <nav class="nav-col">
+		  <p class="footer-heading">Hours</p>
+		  <ul class="footer-nav">
+			<li class="footer-text">Monday: 11:00 AM – 9:00 PM</li>
+			<li class="footer-text">Tuesday: 11:00 AM – 9:00 PM</li>
+			<li class="footer-text">Wednesday: 11:00 AM – 9:00 PM</li>
+			<li class="footer-text">Thursday: 11:00 AM – 9:00 PM</li>
+			<li class="footer-text">Friday: 11:00 AM – 9:00 PM</li>
+			<li class="footer-text">Saturday: 10:00 AM – 10:00 PM</li>
+			<li class="footer-text">Sunday: 10:00 AM – 10:00 PM</li>
+		  </ul>
+		</nav>
+
+		<nav class="nav-col">
+		  <p class="footer-heading">Location</p>
+		  <ul class="footer-nav">
+			<li class="footer-text">740 E Valley Blvd, Alhambra, CA 91801 <span>&ensp;&ensp;&ensp;&ensp;&ensp;</span></li>
+			<div class="map-preview">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5276.160572476202!2d-118.11495986245939!3d34.07901500569835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c54a7bdc594d%3A0xceed1eb53ec3ea2d!2sTop%20Island%20Seafood%20Restaurant!5e0!3m2!1sen!2sus!4v1755103198885!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		  </ul>
+		</nav>
+
+<!--        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav> -->
+      </div>
+    </footer>
+</html>
